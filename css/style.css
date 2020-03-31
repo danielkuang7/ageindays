@@ -1,5 +1,5 @@
 .container-1{
-    border: 1px solid black;
+    border: 1px solid rgb(233, 143, 9);
     width: 75%;
     margin: 0 auto;
     text-align: center;
@@ -7,7 +7,7 @@
 
 .flex-box-container-1{
     display: flex;
-    border: 1px solid black;
+    border: 1px solid rgb(233, 143, 9);
     padding: 10px;
     flex-wrap: wrap;
     flex-direction: row;
@@ -17,6 +17,28 @@
 .flex-box-container-1 div {
     display: flex;
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid rgb(233, 143, 9);
     align-items: center;
+}
+
+.flex-box-result {
+    background-color: pink;
+}
+
+h2 {
+    color: pink;
+}
+
+.h1, h1{
+    color: pink;
+}
+
+.btn-primary {
+    background-color: aquamarine;
+    border-color: aquamarine;
+}
+
+.btn-danger {
+    background-color: palevioletred;
+    order-color: palevioletred;
 }
